@@ -3,10 +3,10 @@
     Registrate
 @endsection
 @section('contenido')
-    <div class="md:flex md:justify-center">
-        
+    <div class="md:flex md:justify-center w-6/12 md:w-8/12 sm:w-10/12 ">
+
         <div class=" bg-white p-6 rounded-lg shadow-xl w-full">
-            <form action="">
+            <form action="" class="">
                 <div class="mb-5">
                     <label for="name" class="mb-2 block uppercase text-gray-500 font-bold">
                         Nombre
@@ -43,8 +43,8 @@
                     <label for="password_confirmation" class="mb-2 block uppercase text-gray-500 font-bold">
                         Repetir Contraseña
                     </label>
-                    <input type="password" name="password_confirmation" id="password_confirmation" placeholder="Repetir Contraseña"
-                        class="border p-3 w-full rounded-lg">
+                    <input type="password" name="password_confirmation" id="password_confirmation"
+                        placeholder="Repetir Contraseña" class="border p-3 w-full rounded-lg">
                 </div>
 
                 <div class="mb-5">
@@ -57,7 +57,8 @@
                     </select>
                 </div>
 
-                <input type="submit" value="Crear Cuenta" class="bg-sky-600 hover:bg-sky-800 transition-colors cursor-pointer font-bold w-full text-white rounded-lg h-10">
+                <input type="submit" value="Crear Cuenta"
+                    class="bg-sky-600 hover:bg-sky-800 transition-colors cursor-pointer font-bold w-full text-white rounded-lg h-10">
 
             </form>
         </div>
